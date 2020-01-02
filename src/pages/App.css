@@ -1,0 +1,58 @@
+.bottomMenu{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottomMenu a{
+  height: 45px;
+  width: 30%;
+  text-align: center;
+  line-height: 64px;
+  font-size: 12px;
+  font-weight: 800;
+  color: #8a8a8a;
+}
+.bottomMenu a{
+  display: inline-block;
+}
+.bottomMenu a:first-child{
+  background: url(../assets/homeb.png) no-repeat center 0;
+  background-size: 1.2rem;
+}
+.bottomMenu a:first-child.homeIndex{
+  background: url(../assets/home.png) no-repeat center 0;
+  background-size: 1.2rem;
+  color: #2395ff;
+}
+.bottomMenu a:nth-child(2){
+  background: url(../assets/disc.png) no-repeat center 5px;
+  background-size: .8rem;
+}
+.bottomMenu a:nth-child(2).find{
+  background: url(../assets/discb.png) no-repeat center 5px;
+  background-size:  .8rem;
+  color: #2395ff;
+}
+.bottomMenu a:nth-child(3){
+  background: url(../assets/dingb.png) no-repeat center 5px;
+  background-size:  .8rem;
+}
+.bottomMenu a:nth-child(3).shopCar{
+  background: url(../assets/ding.png) no-repeat center 5px;
+  background-size:  .8rem;
+  color: #2395ff;
+}
+.bottomMenu a:nth-child(4){
+  background: url(../assets/mineb.png) no-repeat center 5px;
+  background-size:  .8rem;
+}
+.bottomMenu a:nth-child(4).mine{
+  background: url(../assets/mine.png) no-repeat center 5px;
+  background-size:  .8rem;
+  color: #2395ff;
+}
